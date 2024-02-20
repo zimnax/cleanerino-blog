@@ -1,0 +1,32 @@
+version: "3"
+services:
+  server:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    ports:
+      - "4000:4000"
+    volumes:
+      - "./api:/app"
+
+  testing:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - "./app:/app"
+
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: "147852369"
+      MYSQL_DATABASE: cleanerino
+      MYSQL_USER: root
+      MYSQL_PASSWORD: "147852369"
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql-data:/var/lib/mysql
