@@ -17,15 +17,15 @@ services:
       - "3000:3000"
     volumes:
       - "./app:/app"
-
   db:
     image: mysql
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: "147852369"
-      MYSQL_DATABASE: cleanerino
-      MYSQL_USER: root
       MYSQL_PASSWORD: "147852369"
+      MYSQL_USER: root
+      MYSQL_DATABASE: cleanerino
+
     ports:
       - "3306:3306"
     volumes:
