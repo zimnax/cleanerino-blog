@@ -14,13 +14,13 @@ code {
     monospace;
 }
 
-h1{
+h1 {
   font-weight: 700;
   size: 32px;
   line-height: 40px;
 }
 
-h2{
+h2 {
   font-size: 24px;
   color: #333; /* Dark grey color for the text */
   margin-bottom: 28px; /* Space below the header */
@@ -28,20 +28,56 @@ h2{
   line-height: 0px;
 }
 
-p{
+h3 {
+  font-family: Steppe;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+}
+
+h6 {
+  font-family: Steppe;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #808080;
+}
+
+p {
   color: #333333;
   size: 14px;
   font-weight: 600;
   line-height: 20px;
 }
 
-.line-height-zero{
+b {
+  font-family: Steppe;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.line-height-zero {
   line-height: 0;
 }
 
-small{
+small {
   color: #333333;
   size: 14px;
   font-weight: 300;
   display: block;
+}
+
+.primary {
+  color: #609966;
+}
+
+.black {
+  color: #1a1a1a;
+}
+
+.grey {
+  color: #999999;
 }

@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.6.7",
     "country-state-city": "^3.2.1",
+    "dompurify": "^3.0.11",
     "firebase": "^10.7.2",
     "handy-svg": "^1.0.8",
     "react": "^18.2.0",
