@@ -10,7 +10,7 @@ function FeaturedBlog() {
         <BlogCard
           isVertical={false}
           blog={featureBlog[0]}
-          height="268px"
+          height="293px"
         />
     </div>
   );

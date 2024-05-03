@@ -7,6 +7,7 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 32px; /* space between columns */
   margin-top: 32px;
+  height: 728px;
 }
 
 .bloglarge,
@@ -41,7 +42,13 @@
   width: 100%; /* Image should always take full width of its container */
   display: block; /* Remove any extra space below the image */
   object-fit: cover;
-  border-radius: 4px;
+}
+
+.blogcontent{
+  padding:24px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; 
 }
 
 .blogauthordate {
@@ -71,9 +78,16 @@
 }
 
 .blogsummary {
-  max-height: 48px; /* Set the maximum height for the summary */
+  max-height: 98px; /* Set the maximum height for the summary */
   overflow: hidden;
   color: #999999;
+  margin: 0;
+}
+
+.blogsummary1 {
+  max-height: 48px; /* Set the maximum height for the summary */
+  overflow: hidden;
+  color: rgba(229, 229, 229, 1);
   margin: 0;
 }
 
@@ -86,7 +100,7 @@
 
 .blogtag {
   display: inline-block;
-  background: #f7f9ec;
+  background: rgba(255, 252, 235, 1);
   padding: 5px 10px;
   margin-right: 10px;
   border-radius: 16px;
@@ -94,7 +108,7 @@
   font-size: 14px;
   font-weight: 500;
   text-align: center;
-  color: #609966;
+  color: rgba(72, 102, 66, 1);
 }
 
 .loadButton {
@@ -161,4 +175,10 @@
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-between;
+}
+
+.blogCard1{
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+  overflow: hidden;
 }

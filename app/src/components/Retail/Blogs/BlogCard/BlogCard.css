@@ -1,10 +1,28 @@
 .blogcard.horizontal {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Equal width columns */
-  grid-gap: 24px; /* Adjust the gap as necessary */
 }
 .blogcard.vertical {
   display: grid;
   grid-template-columns: 1fr ; 
-  grid-gap: 24px; 
 }
+
+.blogCard {
+  width: 100%; /* Adjust the width as needed */
+  height: 100%; /* Adjust the height as needed */
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.blogContent {
+  bottom: 0; /* Aligns content to the bottom */
+  left: 0;
+  right: 0;
+  color: white; /* Ensures text is readable on dark background */
+  padding: 20px; /* Adds some spacing inside the content area */
+}
+
+/* Additional responsive adjustments may be necessary */

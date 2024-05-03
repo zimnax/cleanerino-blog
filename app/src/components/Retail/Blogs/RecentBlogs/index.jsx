@@ -1,7 +1,7 @@
 import React from "react";
 import SubHeading from "../SubHeading";
 import css from "../blogs.module.css";
-import BlogCard from "../BlogCard";
+import BlogCard from "../BlogCard/blogCard1";
 import {recentBlog} from "../../../../tempData"
 import Search from "./Search";
 
@@ -14,7 +14,6 @@ function RecentBlogs() {
         <BlogCard
           isVertical={true}
           blog={recentBlog[0]}
-          height="348px"
         />
 
         <div className={css.blogsmallcontainer}>
