@@ -5,7 +5,8 @@ export const headerStyle = css`
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  width: 1140px;
+  width: 1640px;
+  max-width: 100%;
   padding: 10px 0;
 `;
 

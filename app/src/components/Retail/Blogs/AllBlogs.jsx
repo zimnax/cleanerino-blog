@@ -7,7 +7,7 @@ import ContainedButton from "../common/ContainedButton";
 
 function AllBlogs() {
   return (
-    <div>
+    <div className={css.allBlogsFrame}>
       <SubHeading text={"All blog posts"} />
       <div
         style={{

@@ -11,7 +11,8 @@ const searchBarContainerStyle = css`
   border: 1px solid #ddd;
   border-radius: 20px; // Updated border-radius
   padding: 5px;
-  width: 1140px;
+  width: 1640px;
+  max-width: 100%;
   margin: auto;
 `;
 

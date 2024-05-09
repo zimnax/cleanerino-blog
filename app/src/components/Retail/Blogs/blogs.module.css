@@ -182,3 +182,8 @@
   border-radius: 30px;
   overflow: hidden;
 }
+
+.allBlogsFrame{
+  width: 1140px;
+  margin:auto;
+}
