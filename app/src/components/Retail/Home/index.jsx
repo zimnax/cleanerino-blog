@@ -18,8 +18,7 @@ function Home() {
   return (
     <div>
       {/* Your home component's content goes here */}
-      <Header />
-      <SearchBar onSearch={handleSearch} />
+      <Header onSearch={handleSearch} />
       <Slideshow />
       <ImageSlider />
       <NewInComponent />

@@ -13,15 +13,15 @@ function Blogs() {
     { text: "Home", href: "/", active: false },
     { text: "Blogs", href: "/blogs", active: true }, // active indicates the current page
   ];
-
   const handleSearch = (searchTerm) => {
     console.log("Searching for:", searchTerm);
+    // You can perform the search operation here, like calling an API
   };
+
 
   return (
     <div>
-      <Header />
-      <SearchBar onSearch={handleSearch} />
+      <Header onSearch={handleSearch}/>
       <Frame>
         <Breadcrumbs items={breadcrumbItems} />
         <RecentBlogs/>
